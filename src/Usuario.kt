@@ -7,8 +7,7 @@ sealed class Usuario {
     class Profesor(val nombre:String, val id:String, val carrera:String) : Usuario()
 
     fun tomarPrestado() :String{
-        if (Usuario == Usuario.Profesor){
-            return "Puedes tomarlo prestado por un tiempo alargado"
-        }
+
     }
+
 }
